@@ -1,0 +1,26 @@
+represents the data as rows and columns 
+entities becomes tables 
+attributes becomes columns
+(degree of table means no of attributes)
+(cardinality means no of rows in a table)
+rdbms is the software for implimenting relation data
+relational model keys:
+super key -> set of attributes that are important for uniquily identifing a row 
+candidate key -> minimizing the size of super key, means if any further attribute is removed from the set of a candidate key then the thing cant be identified uniquely
+primary key ->
+alternate key ->
+forign key ->
+surrogatory key -> primarykey generated automatically by the db
+composite key ->pk from atleast 2 attributes
+compound key -> pk with 2 foreign key
+
+//integrity constraints -> imp to keep the data secure 
+domain constraints
+entity constraints
+referential constraints
+        if something related to a key is present in the referncing table then its value cant be removed fromt he refernced table 
+        two solutions for that:
+            1. on delete cascade
+            2. on delete set null
+//else everythig as how to convert a er model to a relational model go to video 
+https://www.youtube.com/watch?v=_xHl2gpoXqI&list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU&index=10
