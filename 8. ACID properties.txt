@@ -1,0 +1,23 @@
+Transaction : a unit of work that occurs one after the other in sequence.
+
+A -> atomicity means that a transaction either completes or completely rolls back
+C -> consistency means data must be consistent after all transctions
+I -> isolation means that all the transactions occuring concurrently are independent and dont interfare each other
+D -> durability means one the transaction is commitedd then the data must not be lost
+
+states of transaction are:
+active, partially commited, commited, terminated
+active, falied, terminated
+active, partially commited, failed, terminated
+
+-> partially commited means the changes are stored in the buffer of the main memory
+
+//methods to ensure atomicity and consistency
+1. shadow copy scheme
+    in each transaction a new copy of the database is crated in ram changes are made to it and once db pointer points to it and old one is deleted then it is commited
+    -> downside of it is, its very slow due to db replication
+    talk about how atomicity and durability are ensured here
+    writing of db pointer is atomic thus changing of it cant cause durability issues
+2. log based recovery method
+    i> deffered db modification : first log table is written then the changes are made one the pointer reaches the commited state then things are saved. if during mod failure happen then just redo.
+    ii> immediate db modification : if failure happend then redo happens to the initial state of last log
