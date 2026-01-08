@@ -1,0 +1,11 @@
+normalization is done to remove the redundancy and make the tables more organized
+anomalies with redundancy -> 
+    1. insertion anomaly : You cannot insert new data without inserting unrelated data.
+    2. updation anomaly : Same data appears in multiple rows, and updating it in one place but not others leads to inconsistency.
+    3. deletion anomaly : Deleting one record accidentally deletes important information.
+
+different forms of normalization:
+    1Nf -> all the column values should be atomic means there shouldnot be any multivalue, if there is make a new column for that
+    2Nf -> only if 1Nf is already ensured, no partial dependence should be there, if there is then make a new table and relate PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU
+    3Nf -> only  if 2Nf is already ensured, no non-key attribute should depend on another non-key attribute
+    BCNf -> a prime attribute must not be derived from any other prime or non-prime attribute
