@@ -1,0 +1,24 @@
+represeentation :
+Entity -> a rectangle
+weak entity -> concentric two rectangles
+attributes -> oval
+Key Attribute -> oval with a underline
+derived attribute -> dashed oval
+Multivalued Attribute-> double oval
+relationship -> diamond
+weak relationship -> double diamond
+attachment -> stright horizontal line
+cardianility constraints -> 1:N, N:M, 1:1
+participation constraints
+    total parrticipation -> double horizontal line
+    Partial Participation -> Single line
+generalization/ specialization -> with triangle and is a relationship
+aggregation box around a relationship
+
+weak entity -> has no independent existence
+types of relationships:
+urinary rel -> employee manages employee
+binary rel 
+ternary rel
+
+//each weak entity has atleast one strong participation relation with some strong entity

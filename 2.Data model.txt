@@ -1,0 +1,16 @@
+A data model is a conceptual way to represent a database structure, the data it holds, and the relationships between that data.
+
+different type of models->
+    1. er model-> represent data as entities(objects), properties(attributes) and relationships between the differnet entities
+    2. relational model
+    3. object oriented model
+    4. Hirerchial model
+    5. Network model
+/*Data model = idea or design
+Schema = actual structure in DB*/
+
+
+-> ways to interact with the database
+    1. both client and db at the same computer
+    2. both can be on differnet computer but the interaction happens ddirectly
+    3. there is a layer of abstraction as the server is making request for the client to the database 

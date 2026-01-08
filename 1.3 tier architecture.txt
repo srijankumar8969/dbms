@@ -7,3 +7,7 @@ DBMS provides abstraction of different level:
         May contain many schemas which can be considered as subschema
     (schema defines how data will be organised either at the internal, logical or external level).
 
+three tier architecture:
+1. presentation tier
+2. application tier
+3. data tier

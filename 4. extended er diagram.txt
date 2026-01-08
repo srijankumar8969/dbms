@@ -1,0 +1,13 @@
+extended er features:
+ 1. generalization : when some attribute is redundant among two entities then we simply make a specialized entity and those earlier becomes relation to that with an is-a relationship
+ 2. specialization : means some specailized branches created if there is some attributes which are applicable to some and not to others
+
+both has attribute inheritance and both endup giving the same result
+if parant participate in some relationship then child also does
+ 3. aggregation : it is used to treat some set of entities as higher entities
+
+//how to make an er diagram
+    1. find the entities
+    2. find attributes and its types
+    3. find relation and constraints on that relation -> 1. mapping cardianility 2. participation type
+    //not required but think of extendes er features
