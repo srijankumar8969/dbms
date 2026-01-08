@@ -1,0 +1,9 @@
+DBMS provides abstraction of different level:
+    three level architecture -> hides the unnecessary complexity of the database systems
+    1. physical level schema-> how data is stored in the actual memeory
+    2. logical level schema-> how data is structured in the data base and what is the relationship between the data
+        Database admonistrator(DBA) uses the logical level of schema
+    3. view level schema-> describes how data will be represented to the end user
+        May contain many schemas which can be considered as subschema
+    (schema defines how data will be organised either at the internal, logical or external level).
+
