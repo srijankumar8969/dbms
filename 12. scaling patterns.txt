@@ -1,0 +1,7 @@
+1. instead of making connection for each request we can make a pool of connections cache it, when a request is made then use a request from the pool and if done dont close it instead return the connection back to the pool.
+2. vertical scaling by adding more ram and cpu. This is expensive and has a limit of expansion.
+3. Command query responsibility segregation (master slave architecture) means separate servers for read and write.
+4. multi-primary replication -> means all can have the ability to handle read as well as write query
+5. partition db by functionality means make a differnet db schema(new db) for some functionality, now all can scale independent of each other. fault isolation. decrease of load on single db server.
+6. sharding
+7. establishment of own data centers at differnet loaction

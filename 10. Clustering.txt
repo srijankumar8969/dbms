@@ -1,0 +1,5 @@
+making data redundant is benefitial sometimes not in the table but across various servers.
+    availability
+    load managed
+    durability
+

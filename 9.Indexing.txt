@@ -1,0 +1,24 @@
+//what indexing is :
+    Indexing is a database optimization technique that improves query performance by reducing the number of disk reads using efficient data structures like B-trees.
+    search complexity reduces to 0(logn)
+//disadvantages of indexing
+    it usually makes a file with the indexed attribute and the base pointer thus the overhead increase insert, update and delete operations become a bit costly
+    thus not good for small databases
+
+(index file is always sorted)
+    dense index vs sparce index -> its on the basis that wheather all the search key values are included or some
+primary indexing -> when search key is sorted in the main file as well then we call it a primary index
+then we can have sparce index thus the index can refer to a block to which we can go and find the relevent thing by serching
+
+//clustering index means that the attribute needs to be non key attribute but must be sorted means the attribute can be a non key attribute
+    this is also a type of primary indexing
+    only one clustered index per table
+
+multi level indexing
+    when one index file becomes very large that it takes a lot of time to search through it then we use mltilevel indexing means more then one index tables one pointing to other
+
+//non-clusterd indexing -> secondary indexing
+    means in the table the attribute is not sorted 
+    but in the index file it is sorted
+
+

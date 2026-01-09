@@ -1,0 +1,22 @@
+both foster parallelism
+partitioning means dividing the table vertiically or horiontally within the same database
+but sharding means dividing horizontally and distributing over different servers using various strategies like range, geographical, ... etc.
+    adds complexity to the system
+    not easy to implement 
+    may cause incosistency
+    joins become very expensive
+    adv ->
+    inc availability
+    decrease latency
+    highly scalable
+
+sharding stratigies:
+    1. range based 
+    2. hashing based 
+    3. consistent hashing
+    4. geographical based
+    5. directory based -> a directory decides where data goes 
+    5. vertical sharding -> sharding on the basis of table/column instead of row
+
+//CAP theorem
+    atmax two of consistency, availability and partition tolerance can be assured in a distributed stateful system
